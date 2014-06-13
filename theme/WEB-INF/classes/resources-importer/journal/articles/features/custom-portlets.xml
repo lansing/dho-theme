@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="H08arIPa" name="feature" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Adapted portlets]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0owma8b" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Pixelpress adapt the styles of the most used liferay port lets to fit its styles.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="Hrowma8c" name="icone" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0ow8bad" name="feature-link" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+</root>

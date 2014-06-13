@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="H0owsIPa" name="feature" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Responsive Design]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0owsIPb" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Pixelpress is designed with the Liferay responsive design technologies to fit the principal mobile devices resolution.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0owsIPc" name="icone" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0owsIPd" name="feature-link" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+</root>

@@ -1,0 +1,125 @@
+{
+	"layouts": [
+		{
+			"friendlyURL": "/home",
+			"name": "Home",
+			"layoutTemplateId": "home_pixelpress",
+			"title": "Home",
+			
+			"columns": [
+					[
+						"text-link-image-slider.xml"
+					],
+					[
+						"custom-portlets.xml"
+					],
+					[
+						"responsive-layout.xml"
+					],
+					[
+						"skins.xml"
+					],
+					[
+						"mini-portofolio.xml",
+						"testimonials.xml",
+					],
+					
+			],
+			"layouts": [
+							{
+					"title": "Carousel",
+					"name": "Carousel",
+					"friendlyURL": "/carousel",
+					"layoutTemplateId": "1_column",
+					"columns": [
+				[			
+					"carousel.xml"			
+				]
+	
+			],
+					
+				}
+		
+				
+			],
+		},
+		
+		{"columns": [
+				[
+					{
+						"portletId": "73",
+						
+					},
+						"portfolio.xml",
+						
+					
+				]
+			],
+			"friendlyURL": "/portfolio",
+			"name": "Portfolio",
+			"layoutTemplateId": "1_column",
+			"title": "Portfolio"
+		},
+			{"columns": [
+				[
+					{
+						"portletId": "33",
+						
+					}
+				],
+				[
+					{
+						"portletId": "114",
+						
+					}
+				]
+			],
+			"friendlyURL": "/blogs",
+			"name": "Blogs",
+			"layoutTemplateId": "2_columns_iii",
+			"title": "Blogs"
+		},
+			{"columns": [
+
+				[
+					{
+						"portletId": "36",
+						
+					}
+				],
+				[
+					{
+						"portletId": "3",
+						
+					}
+				]
+			],
+			"friendlyURL": "/wiki",
+			"name": "wiki",
+			"layoutTemplateId": "2_columns_iii",
+			"title": "Wiki"
+		},
+
+		{"columns": [
+				
+				[
+					{
+      					"portletId": "1_WAR_webformportlet",
+     						 "portletPreferences": {
+     				      "fieldType2": "radio",
+	  						 "fieldOptions2": "option1,option2,option3",
+	  		 				"title" : "",
+	  						 "description" : "",     
+	  						 "fieldType": "email",  	
+	  						 		   
+   					   }
+					}
+				]
+			],
+			"friendlyURL": "/contact-us",
+			"name": "Contact us",
+			"layoutTemplateId": "1_column",
+			"title": "Contact us"
+		}
+	]
+}

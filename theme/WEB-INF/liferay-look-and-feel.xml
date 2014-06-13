@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.2.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_2_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.2.0+</version>
+	</compatibility>
+	<theme id="pixelpress" name="Pixelpress">
+	<settings>
+		<setting configurable="true" key="display-chat" type="checkbox" value="true" />
+		<setting configurable="true" key="display-widgets-footer" type="checkbox" value="true" />
+		<setting configurable="true" key="widgets-footer-section-1-article-id" type="text" />
+		<setting configurable="true" key="widgets-footer-section-2-article-id" type="text" />
+		<setting configurable="true" key="widgets-footer-section-3-article-id" type="text" />
+		<setting configurable="true" key="widgets-footer-section-4-article-id" type="text" />
+		<setting configurable="true" key="display-footer" type="checkbox" value="true" />
+		<setting configurable="true" key="footer-LeftSection-Content" type="text" />
+		<setting configurable="true" key="footer-RightSection-Content" type="text" />
+		<setting configurable="true" key="dockbar-transparent" type="checkbox" value="true" />
+   		<setting configurable="true" key="portlet-setup-show-borders-default" type="checkbox" value="false"/>
+   		<setting configurable="true" key="show-language-choice" type="checkbox" value="false" />
+   		<setting configurable="true" key="language-displayStyle" options="Flags,Drop Down,Long Text,Short Text" type="select"  value="3" />
+		<setting configurable="true" key="show-search-portlet" type="checkbox" value="false" />
+	</settings>
+	
+	<color-scheme id="01" name="default">
+			<css-class>default</css-class>
+		   <color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path> 
+		</color-scheme>
+		
+		<color-scheme id="02" name="orange">
+			<css-class>skin-orange</css-class>
+		<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path> 
+		</color-scheme>
+
+		<color-scheme id="03" name="yellow">
+			<css-class>skin-yellow</css-class>
+			<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
+		</color-scheme>
+
+		<color-scheme id="04" name="green">
+			<css-class>skin-green</css-class>
+		  <color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path> 
+		</color-scheme>
+		
+		<color-scheme id="05" name="pink">
+			<css-class>skin-pink</css-class>
+		  <color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path> 
+		</color-scheme>
+		<layout-templates>
+			<custom>
+				<layout-template id="home_pixelpress" name="home pixelpress Layouttpl">
+					<template-path>/layouttpl/custom/home-pixelpress-layouttpl/home_pixelpress.tpl</template-path>
+					<wap-template-path>/layouttpl/custom/home-pixelpress-layouttpl/home_pixelpress.tpl</wap-template-path>
+					<thumbnail-path>/layouttpl/custom/home-pixelpress-layouttpl/home_pixelpress.png</thumbnail-path>
+				</layout-template>
+			</custom>
+		</layout-templates>
+	</theme>
+</look-and-feel>

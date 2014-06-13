@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="wXIPb4lc" name="portofolio-title" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Portfolio]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="5aTjL31P" name="portofolio-description" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[This is where your portfolio items will show up. You can change this text in the options.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="TWwqXZK4" name="sections" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="WPUGFl83" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="qM93wG7O" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="35FYhPuk" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Sunset]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="KMdxQ7lt" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image0]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="WPUGfl83" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="qM9fwG7O" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="35FYfPuk" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Sunset]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="KMdxf7lt" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image10]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Cinema]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="e5IqJzMa" name="sections" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="K6BKEeDG" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="fWmsmqVg" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="gFgjGPM9" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Cityscapes]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="7Bx4eW6E" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image1]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="5IWdYQVv" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="lWoiAlu2" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="09jgm4qT" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Travel]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="6aNU65Cb" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 2]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Documentary]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="5JtiBHAi" name="sections" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="cKnCIOvO" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="h7CjaTki" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="6Bu0KRqc" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Desert]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="vOJXBOq9" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image1]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="u9vMtmOQ" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="tASXVQ2X" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="mgOjsHkA" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Random Images]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="zV1PU6sB" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 2]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="jtd8CKX5" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="KAfzsTLQ" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=197_203.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="jwf31hCe" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Single Image]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="GDvhKN8i" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 3]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Photography]]></dynamic-content>
+	</dynamic-element>
+</root>

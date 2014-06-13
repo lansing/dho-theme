@@ -1,0 +1,40 @@
+
+<div id="portfolio">
+<header class="portfolio-header">
+    <h1 class="fix">				    	
+		 #if($portofolio-title.data)
+                   $portofolio-title.data
+         #end				    		
+	</h1>
+	<p>
+    <span>
+    $portofolio-description.data
+    </span>
+    </p>
+	<div id="portfolio-filter" class="port-tags">
+        <div class="fl">
+            <span class="port-cat">
+                <a href="#all">All</a>
+               #foreach($section in $sections.siblings)
+                <a rel="design" href="#$section.data.replace(" ", "")">$section.data</a>
+               #end
+            </span>
+        </div><!--/.fl-->
+    <div class="fix"></div>
+    </div><!--/#port-tags .port-tags-->
+</header>
+<div id="portfolio-list" class="portfolio-items type-page fix">
+#foreach($section in $sections.siblings)
+   #foreach($image in $section.images.siblings)
+    <article id="portfolio-item-id-116" class="post-116 type-portfolio status-publish portfolio-item $section.data.replace(" ", "")" style="height: 295px; ">
+         <a title="" href="$image.link.data" class="item drop-shadow curved curved-hz-1">
+             <img src="$image.image-source.data" alt="" width="207" height="212" class="thumbnail" style="opacity: 1; ">
+         </a>
+         <span class="mask"></span>
+         <h2><a href="$image.link.data" rel="bookmark" title="$image.image-name.data">$image.image-name.data</a></h2>
+         <p class="category">$section.data</p>
+    </article>
+   #end
+#end
+</div>
+</div>

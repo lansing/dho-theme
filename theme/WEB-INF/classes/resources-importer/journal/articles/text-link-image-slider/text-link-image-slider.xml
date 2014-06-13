@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="ON2Bu9Ie" name="animation-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[600]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="p1TgHLMl" name="slideshow-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="hpxrUwr8" name="auto-slideshow" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="40mJ1UMb" name="direction-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="sBgqL2fS" name="control-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="TktfZ4ue" name="animation-loop" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="6IeUZqPZ" name="pause-on-hover" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="rR54sU5M" name="animation-type" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[fade]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="2Yyb0jzq" name="sliding-direction" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[horizontal]]></dynamic-content>
+	</dynamic-element>
+		<dynamic-element instance-id="Z4uDKsJe" name="manual-controls" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="Ip6fx3id" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="YZ30reTU" name="description" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="VsjSlQa7" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=900_350.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="DmwoYWd8" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="oxW2xYM9" name="button-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="r6zUyOb6" name="button-caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Buy Pixelpress]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Cinema , Documentary , Photography ]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="t5wlwoEm" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="GeLUxZgm" name="description" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="OAOivXwm" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=900_350.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="XUtdPwPm" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="oPgXWBbm" name="button-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="627KBp4m" name="button-caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Buy This Theme]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[And More]]></dynamic-content>
+	</dynamic-element>
+		<dynamic-element instance-id="t5wlwoEN" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="GeLUxZg7" name="description" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="OAOivXwq" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=900_350.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="XUtdPwPS" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="oPgXWBbq" name="button-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="627KBp4J" name="button-caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Buy This Theme]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Perfection]]></dynamic-content>
+	</dynamic-element>
+</root>

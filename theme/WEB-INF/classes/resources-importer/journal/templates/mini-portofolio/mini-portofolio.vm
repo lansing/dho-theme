@@ -1,0 +1,120 @@
+<!-- ******slider parameters ****** -->
+
+#set($sliderId = "slider"+$reserved-article-id.data.replaceAll("-", "")+"name")
+#set ($animationSpeed = $getterUtil.getInteger($animation-speed.data))
+#if ($animationSpeed==0)
+   #set ($animationSpeed = 3000)
+#end
+#set ($slideshowSpeed = $getterUtil.getInteger($slideshow-speed.data))
+#if ($slideshowSpeed==0)
+   #set ($slideshowSpeed = 500)
+#end
+#set ($itemWidth = $getterUtil.getInteger($item-width.data))
+
+#set ($move = $getterUtil.getInteger($moved-items.data))
+
+#set ($maxItems = $getterUtil.getInteger($max-items.data))
+
+#set ($slideshow = $auto-slideshow.data)
+#if ($slideshow=="")
+   #set ($slideshow = false)
+#end
+#set ($manualControls = $manual-controls.data)
+#if ($manualControls=="")
+   #set ($manualControls = "''")
+#end
+#set ($directionNav = $direction-nav.data)
+#if ($directionNav=="")
+   #set ($directionNav = false)
+#end
+#set ($controlNav = $control-nav.data)
+#if ($controlNav=="")
+   #set ($controlNav = false)
+#end
+#set ($animationLoop = $animation-loop.data)
+#if ($animationLoop=="")
+   #set ($animationLoop = false)
+#end
+#set ($pauseOnHover = $pause-on-hover.data)
+#if ($pauseOnHover=="")
+   #set ($pauseOnHover = false)
+#end
+
+#set ($animation = "'"+$animation-type.data+"'")
+
+#set ($direction = "'"+$sliding-direction.data+"'")
+
+#set ($contentId = "slider-" + $reserved-article-id.getData() + "-id")
+
+#set ($itemWidth = 230)
+#set ($maxItems = 4)
+#set ($move = 4)
+<section class="mini-Portfolio">
+<header class="section-header">
+     <h1>
+           #if($section-title.data)
+                   $section-title.data
+           #end
+     </h1>
+     <p>     
+     <span>
+      #if($sections)
+         #foreach($section in $sections.siblings)
+            <a href="$section.section-link.data" rel="all">$section.data</a> 
+         #end
+      #end
+     </span>
+     </p>
+</header>
+<div class="mini-Portfolio-slider" id="$contentId">
+ 	<ul  class="slides">
+		#foreach($slide in $slides.siblings)
+	        <li >
+                   <article class="portfolio-item"> 
+                       <a href="$slide.image-link.data" class="item"> 
+                         <div class="img-wrap"> 
+                           <img src="$slide.image-source.data"> 
+                         </div> 
+                       </a> 
+                       <div class="mask"> 
+                          <div class="content"> 
+                            <h2><a href="$slide.title-text.data" title="Travel">$slide.title-text.data</a></h2> 
+                              <p>
+                                 #if($slide.description.data)
+                                     $slide.description.data
+                                 #end
+                              </p> 
+                          </div> 
+                       </div> 
+                   </article>
+                </li>
+
+                #end
+		
+		</ul>
+</div>
+</section>
+
+
+<!-- ********* javaScript ********** -->
+<script type="text/javascript">
+   jQuery(window).load(function() {  
+       jQuery('#$contentId').flexslider({  
+           	animation: $animation,
+           	direction: $direction,   		   	
+           	controlNav: $controlNav,  
+           	directionNav: $directionNav,
+           	slideshow: $slideshow,   
+           	animationSpeed: $animationSpeed ,	
+           	slideshowSpeed: $slideshowSpeed ,
+           	pauseOnHover: $pauseOnHover,
+           	animationLoop: $animationLoop,
+			itemWidth: $itemWidth,
+			maxItems: $maxItems,
+			move: $move,
+			smoothHeight: true,
+			manualControls: $manualControls
+		
+           	   	});   
+            });	
+</script>

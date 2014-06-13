@@ -1,0 +1,14 @@
+<div class="mini-features">
+<div class="image">
+<img src="$icone.data" alt="">
+</div>	    					
+<div class="entry">
+<h2>
+<a href="$feature-link.data">
+$feature.data
+</a></h2>
+<p>
+$abstract.data
+</p>
+</div>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="H0rarIPa" name="feature" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[5 Color Schemes]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0owmagb" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Pixelpress offer 5 diffrent Color Schemes.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="HrowmaPc" name="icone" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="H0owrbad" name="feature-link" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+</root>

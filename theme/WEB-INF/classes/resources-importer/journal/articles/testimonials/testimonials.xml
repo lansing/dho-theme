@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="ON2Bu9Ie" name="animation-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[600]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="p1TgHLMl" name="slideshow-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="hpxrUwr8" name="auto-slideshow" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="40mJ1UMb" name="direction-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="sBgqL2fS" name="control-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="TktfZ4ue" name="animation-loop" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="6IeUZqPZ" name="pause-on-hover" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="rR54sU5M" name="animation-type" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[slide]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="2Yyb0jzq" name="sliding-direction" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[horizontal]]></dynamic-content>
+	</dynamic-element>
+		<dynamic-element instance-id="Z4uDKsJe" name="manual-controls" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="56hCIjdM" name="section-title" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Testimonials]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="qa8F8dLb" name="section-description" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[What are valued clients saying about us]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="8BpZtdjU" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="idGhdz8p" name="image-source" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=avatar1.jpeg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="Ed5NV9jU" name="author-name" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Some guy]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FdntYc0Z" name="site" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[My site]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="xd1RfqY6" name="site-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[http://www.me.com/]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="4dnplJig" name="description" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[slid 1]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="uS9ZjdPO" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="xde4kivV" name="image-source" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=avatar2.jpeg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="jdCfczjB" name="author-name" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[That person]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="MdRfB5Th" name="site" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[http://www.avatar.com]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="hdIpLrqi" name="site-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[http://www.avatar.com]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IdB5f2at" name="description" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[This is my testimonial about that theme]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[slid 2]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="iadkpdqH" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="9dljPZy9" name="image-source" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=avatar3.jpeg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="GdQteXRM" name="author-name" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Mr person]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="CdXCpQax" name="site" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[this site]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="RduSYx0D" name="site-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[#]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="VdY4SsDZ" name="description" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[slid 3]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="dYPSmd3j" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="WNrVtbep" name="image-source" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=avatar1.jpeg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="8dFJDk2h" name="author-name" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Flena Foulaniya]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="Qd03wgx8" name="site" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[www.dummyurl.com]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="Xd7ojxzH" name="site-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Jeffikus]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="KdvJQPny" name="description" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[slid 4]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="6HopLdyG" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="FdLTZuPD" name="image-source" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=avatar1.jpeg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="tdjeGVu0" name="author-name" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Flen Foulani]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="wdWFKzf5" name="site" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[My site]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ZdptDx65" name="site-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[http://site.com/]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="7dy9nFlm" name="description" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[slid 5]]></dynamic-content>
+	</dynamic-element>
+</root>

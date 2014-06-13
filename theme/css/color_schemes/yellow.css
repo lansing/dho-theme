@@ -1,0 +1,32 @@
+/* ----------- Compass Import ----------*/
+@import "compass";
+.aui{
+.skin-yellow #main-content #first-row {
+	background: #F2C45A;
+	@include background-image(linear-gradient(top, #F2C45A 0%, #E1D57C 100%));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a,endColorstr=#e1d57c);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a, endColorstr=#e1d57c)";
+	color: #817832;
+}
+
+.skin-yellow{
+	#footer-widgets, #footer{
+		a{
+			color: #5595A5;
+		}
+	}	
+	input[type="submit"],input[type="button"],.text-link-image-slider-wrap .entry a{
+		border: 1px solid #F2C45A;
+		background: #F2C45A;
+		@include background-image(linear-gradient(top, #F2C45A 0%, #BFB35A 100%));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a,endColorstr=#bfb35a);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a, endColorstr=#bfb35a)";
+	}
+	input[type="submit"]:hover,input[type="Button"]:hover,.text-link-image-slider-wrap .entry a:hover{
+		background: #f2c45a;
+		@include background-image(linear-gradient(top, #f2c45a 0%, #d0a238 100%));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a,endColorstr=#d0a238);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2c45a, endColorstr=#d0a238)";
+	}
+}
+}

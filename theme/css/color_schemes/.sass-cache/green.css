@@ -1,0 +1,32 @@
+/* ----------- Compass Import ----------*/
+.aui .skin-green #main-content #first-row {
+  background: #95CFB7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #95cfb7), color-stop(100%, #d4ecc5));
+  background-image: -webkit-linear-gradient(top, #95cfb7 0%, #d4ecc5 100%);
+  background-image: -moz-linear-gradient(top, #95cfb7 0%, #d4ecc5 100%);
+  background-image: -o-linear-gradient(top, #95cfb7 0%, #d4ecc5 100%);
+  background-image: linear-gradient(top, #95cfb7 0%, #d4ecc5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#95cfb7,endColorstr=#d4ecc5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#95cfb7, endColorstr=#d4ecc5)"; }
+.aui .skin-green #footer-widgets a, .aui .skin-green #footer a {
+  color: #5595A5; }
+.aui .skin-green input[type="submit"], .aui .skin-green input[type="button"], .aui .skin-green .text-link-image-slider-wrap .entry a {
+  border: 1px solid #87BDB1;
+  background: #AACCB1;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaccb1), color-stop(100%, #87bdb1));
+  background-image: -webkit-linear-gradient(top, #aaccb1 0%, #87bdb1 100%);
+  background-image: -moz-linear-gradient(top, #aaccb1 0%, #87bdb1 100%);
+  background-image: -o-linear-gradient(top, #aaccb1 0%, #87bdb1 100%);
+  background-image: linear-gradient(top, #aaccb1 0%, #87bdb1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaccb1,endColorstr=#87bdb1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaccb1, endColorstr=#87bdb1)"; }
+.aui .skin-green input[type="submit"]:hover, .aui .skin-green input[type="Button"]:hover, .aui .skin-green .text-link-image-slider-wrap .entry a:hover {
+  background: #AACCB1;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaccb1), color-stop(100%, #659b8f));
+  background-image: -webkit-linear-gradient(top, #aaccb1 0%, #659b8f 100%);
+  background-image: -moz-linear-gradient(top, #aaccb1 0%, #659b8f 100%);
+  background-image: -o-linear-gradient(top, #aaccb1 0%, #659b8f 100%);
+  background-image: linear-gradient(top, #aaccb1 0%, #659b8f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaccb1,endColorstr=#659b8f);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaccb1, endColorstr=#659b8f)"; }
+
