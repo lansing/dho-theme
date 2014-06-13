@@ -27,10 +27,8 @@ end
 
 File.delete(THEME_WAR) if File.exist?(THEME_WAR)
 FileUtils.rm_r("#{BUILD_DIR}") if Dir.exist?(BUILD_DIR)
-
 Dir.mkdir(BUILD_DIR)
 
 zip_into.call(THEME_DIR, THEME_WAR)
-
 zip_into.call(STAGING_DIR, "#{BUILD_DIR}/#{PRODUCT_NAME}.lpkg")
 
