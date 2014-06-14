@@ -11,7 +11,7 @@ BASE_DIR = File.dirname(__FILE__) + "/../"
 STAGING_DIR = File.expand_path(BASE_DIR + "staging")
 THEME_DIR = File.expand_path(BASE_DIR + "theme")
 BUILD_DIR = File.expand_path(BASE_DIR + "build")
-THEME_WAR = "#{STAGING_DIR}/pixelpress-theme-6.2.0.0.war"
+THEME_WAR = "#{STAGING_DIR}/dho-theme-6.2.0.0.war"
 
 run_command = lambda do |c|
   puts c
