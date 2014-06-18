@@ -35,15 +35,6 @@ width: 100%;
 text-align: center;
 }
 
-h1.site-title a.logo img {
-display: none;
-}
-h1.site-title a.logo:before {
-content: "THE DHARMA OVERGROUND";
-font-family: TopSecret;
-font-size: 1.8em;
-}
-
 h1.site-title .site-name {
 display: none;
 }
@@ -88,3 +79,46 @@ body.html-editor {
     font-family: Arial;
     font-size: 15px;
 }
+
+#banner {
+   background-color: #79765b;
+   background-image:
+      linear-gradient(
+         to right,
+         #555636, #b4b0a0
+      );
+}
+
+
+/** FIX PATHS **/
+
+#banner {
+  background-image: url(file:///Users/max/Code/dho-theme/theme/images/dho/banner.png);
+  height: 186px;
+  background-repeat:no-repeat;
+  background-position:left top;
+}
+
+#heading {
+  margin-top: 64px !important;
+}
+
+#navigation {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+
+/** END FIX PATHS **/
+
+/** STUFF TO MERGE **/
+
+h1.site-title a.logo:before {
+content: none;
+}
+
+h1.site-title a.logo img {
+ display: inline;
+}
+
+/** END STUFF TO MERGE **/
