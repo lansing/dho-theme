@@ -90,15 +90,6 @@ body.html-editor {
 }
 
 
-/** FIX PATHS **/
-
-#banner {
-  background-image: url(file:///Users/max/Code/dho-theme/theme/images/dho/banner.png);
-  height: 186px;
-  background-repeat:no-repeat;
-  background-position:left top;
-}
-
 #heading {
   margin-top: 64px !important;
 }
@@ -109,7 +100,6 @@ body.html-editor {
 }
 
 
-/** END FIX PATHS **/
 
 /** STUFF TO MERGE **/
 
@@ -153,4 +143,20 @@ div.message-container {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
 /** END STUFF TO MERGE **/
+
+
+
+/** FIX PATHS **/
+
+#banner {
+  background-image: url(./../images/dho/banner.png);
+  height: 186px;
+  background-repeat:no-repeat;
+  background-position:left top;
+}
+
+/** END FIX PATHS **/
+
+
