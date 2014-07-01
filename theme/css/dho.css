@@ -121,4 +121,36 @@ h1.site-title a.logo img {
  display: inline;
 }
 
+.aui #content {
+  background-color: #DDD9D2;
+}
+
+td.lfr-top.user-info {
+  background-color: #EAEBEC;
+}
+
+div.thread-top.float-container {
+  background-color: #DBDBDD;
+}
+
+div.thread-body  {
+  background-color: #F3F3F4;
+}
+
+td.thread-bottom {
+  background-color: #F3F3F4;
+}
+
+table.toggle_id_message_boards_view_message_thread {
+  background-color: #CFCDC8;
+}
+
+table.thread-message-view {
+  margin-bottom: 0px;
+}
+
+div.message-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 /** END STUFF TO MERGE **/
